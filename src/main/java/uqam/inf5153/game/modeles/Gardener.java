@@ -1,6 +1,6 @@
-package uqam.inf5153.game.modeles;
+package main.java.uqam.inf5153.game.modeles;
 
-public class Gardener implements Pion {
+public class Gardener implements Piece {
 	
 	private Position position;
 
@@ -8,7 +8,7 @@ public class Gardener implements Pion {
 	public Position getPosition() { return this.position; }
 
 	@Override
-	public void setPosition(int x, int y) {
+	public void setPosition(double x, double y) {
 		this.position = new Position(x, y);
 	}
 

@@ -1,10 +1,10 @@
-package uqam.inf5153.game.modeles.decks;
+package main.java.uqam.inf5153.game.modeles.decks;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-import uqam.inf5153.game.modeles.plots.Plot;
+import main.java.uqam.inf5153.game.modeles.plots.Plot;
 
 public class PlotDeck implements Deck<Plot> {
 

@@ -1,4 +1,4 @@
-package uqam.inf5153.game;
+package main.java.uqam.inf5153.game;
 
 /**
  * une classe utilitaires pour les saisis au clavier.

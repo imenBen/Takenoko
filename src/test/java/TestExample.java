@@ -1,5 +1,7 @@
-import org.junit.Test;
-import static org.junit.Assert.*;
+package test.java;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 public class TestExample {
 
@@ -7,6 +9,7 @@ public class TestExample {
     public void stupidTest() {
         assertEquals("stupid", "stupid");
     }
+
 
 
 }

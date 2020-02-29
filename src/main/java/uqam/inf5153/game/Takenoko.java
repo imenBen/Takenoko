@@ -1,6 +1,4 @@
-package uqam.inf5153.game;
-
-import uqam.inf5153.game.modeles.goals.PlotGoal;
+package main.java.uqam.inf5153.game;
 
 /**
  * Crée par Imen Benzarti le 13/01/2020
@@ -9,17 +7,17 @@ import uqam.inf5153.game.modeles.goals.PlotGoal;
  * vers les classes responsable de les implémenter.
  */
 public class Takenoko {
-
+	
 	/**
 	 * les parcelles
 	 */
-
+	
 	/*
-	 * Piocher i parcelle de la pioche du joueur joueur
+	 * Piocher i parcelle de la pioche du joueur joueur 
 	 */
 	public static String[] piocherParcelles(int i, int joueur) {
 		// TODO Auto-generated method stub
-		return null;
+		return null;		
 	}
 	/*
 	 * selectionne uneParcelle parmi les parcelles piochés et retourne les autres à la pioche.
@@ -28,20 +26,20 @@ public class Takenoko {
 		// TODO Auto-generated method stub		
 	}
 	/*
-	 * afficher un ensemble de parcelles
+	 * afficher un ensemble de parcelles 
 	 */
 	public static void afficherParcelles(String[] parcelles) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	/*
 	 * afficher les parcelles déposé dans le plateau du joueur joueur
 	 */
 	public static void afficherParcellesPlateau(int joueur) {
 		// TODO Auto-generated method stub
-
+		
 	}
-
+	
 	/*
 	 * placer une parcelle dans la position (x,y) dans le plateau du joueur joueur.
 	 * retourne true si la parcelle est bien placée, sinon elle retourne false.
@@ -49,19 +47,19 @@ public class Takenoko {
 	public static boolean placerParcelleDansPlateau(String parcelle, int x, int y, int joueur) {
 		// TODO Auto-generated method stub
 		return true;
-
+		
 	}
 	/**
 	 * piocher une irrigation du joueur 
 	 */
-
+	
 	/*
-	 * piocher une irrigation dans la pioche des irrigation du joueur
-	 *
+	 * piocher une irrigation dans la pioche des irrigation du joueur 
+	 * 
 	 */
 	public static void piocherUneIrrigation(int joueur) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	/*
 	 * placer une irrigation entre les parcelles (x1,y1) et (x2, y2) dans le plateau du joueur joueur
@@ -74,9 +72,9 @@ public class Takenoko {
 	/**
 	 * objectifs
 	 */
-
+	
 	/*
-	 * retourne tous les objectis piochées par le joueur
+	 * retourne tous les objectis piochées par le joueur 
 	 */
 	public static String[] afficherObjectifsJoueur(int joueur) {
 		// TODO Auto-generated method stub
@@ -94,14 +92,13 @@ public class Takenoko {
 
 	/*
 	 * le joueur rempli un objectif
-	 * retourne true si l'objectif est rempli, sinon elle retourne false.
+	 * retourne true si l'objectif est rempli, sinon elle retourne false. 
 	 */
 	public static boolean remplirObjectif(int joueur, String objectif) {
 		// TODO Auto-generated method stub
-
 		return false;
 	}
-
+	
 	/*
 	 * piocher un objectif dans la pioche du joueur
 	 */
@@ -109,11 +106,11 @@ public class Takenoko {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
 	/**
 	 * jardinier
 	 */
-
+	
 	/*
 	 * placer le jardinier du joueur dans la parcelle dans la position (x,y) de son plateau.
 	 * retourne true si le jardinier est déplacé, sinon elle retourne false
@@ -123,12 +120,12 @@ public class Takenoko {
 		return true;
 	}
 
-
-
+	
+		
 	/**
 	 * panda
 	 */
-
+	
 	/*
 	 * placer le panda du joueur dans la parcelle dans la position (x,y)  de son plateau.
 	 * retourne true si le panda est déplacé, sinon elle retourne false
@@ -137,11 +134,11 @@ public class Takenoko {
 		// TODO Auto-generated method stub
 		return true;
 	}
-
+	
 	/**
 	 * fin DE partie
 	 */
-
+	
 	/*
 	 * retourne true si la partie est terminé.
 	 * Pour deux joueur une partie prend fin si un des joueur remplit son 9ème objectif
@@ -153,16 +150,16 @@ public class Takenoko {
 	/**
 	 *  Le gagnant
 	 */
-
+	
 	/*
 	 * annonce la gagnant à la fin de la partie.
 	 * et ce en calclant le total des points des objectifs remplis.
 	 */
 	public static int annoncerGagnant() {
-
+		
 		return 1;
 	}
-
-
+	
+	
 
 }

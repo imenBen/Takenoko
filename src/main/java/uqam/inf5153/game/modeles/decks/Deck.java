@@ -1,4 +1,4 @@
-package uqam.inf5153.game.modeles.decks;
+package main.java.uqam.inf5153.game.modeles.decks;
 
 import java.util.Optional;
 

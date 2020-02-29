@@ -1,38 +1,34 @@
-package uqam.inf5153.game.modeles.plots;
+package main.java.uqam.inf5153.game.modeles.plots;
 
-import uqam.inf5153.game.modeles.Placable;
-import uqam.inf5153.game.modeles.Position;
+import main.java.uqam.inf5153.game.modeles.Placable;
+import main.java.uqam.inf5153.game.modeles.Position;
 
-import java.util.*;
+import java.util.Objects;
 
 public class Plot implements Placable {
 
 	private Position position;
-	private String color;
-	private Plot plot;
 
-
-	//constructeur
-	public Plot (Position position, String color){
-		this.color = color;
-		this.position= position;
-	}
-
-	public Plot (){
-
-	}
+	Plot(){}
 
 	@Override
-	public Position getPosition() {
-		return this.position;
-	}
+	public Position getPosition() { return this.position; }
 
 	@Override
-	public void setPosition(int x, int y) {
+	public void setPosition(double x, double y) {
 		this.position = new Position(x, y);
 	}
 
-	public String getColor ( ) {
-		return color;
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (!(o instanceof Plot)) return false;
+		Plot plot = (Plot) o;
+		return position.equals(plot.position);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(position);
 	}
 }
