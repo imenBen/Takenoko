@@ -1,3 +1,26 @@
-/Users/imenbenzarti/Google Drive/inf5153-H20/projet/code/TakenokoDemoIN5153/src/main/java/uqam/inf5153/game/Main.java
-/Users/imenbenzarti/Google Drive/inf5153-H20/projet/code/TakenokoDemoIN5153/src/main/java/uqam/inf5153/game/Keyin.java
-/Users/imenbenzarti/Google Drive/inf5153-H20/projet/code/TakenokoDemoIN5153/src/main/java/uqam/inf5153/game/Takenoko.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/plots/GreenPlot.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/Main.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/decks/WaterDeck.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/Keyin.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Pion.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/plots/PinkPlot.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/managers/RoundManager.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/decks/GoalDeck.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Gardener.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Placable.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/managers/DeckManager.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/decks/PlotDeck.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/Takenoko.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/decks/Deck.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/goals/GardenerGoal.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/goals/PlotGoal.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/plots/YellowPlot.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/WaterChannel.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Position.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Panda.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/goals/Goal.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/Board.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/plots/Plot.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/PlayerBoard.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/modeles/goals/PandaGoal.java
+/Users/hishamnassar/Documents/rymeTakenoko/src/main/java/uqam/inf5153/game/Game.java
